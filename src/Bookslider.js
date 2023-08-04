@@ -20,12 +20,6 @@ const items = [
     caption: "Slide 2",
     key: 2,
   },
-  {
-    src: "https://assets-in.bmscdn.com/promotions/cms/creatives/1690886688137_streamsavedesktop.jpg",
-    altText: "Slide 3",
-    caption: "Slide 3",
-    key: 3,
-  },
 ];
 
 function Bookslider(args) {

@@ -1,3 +1,4 @@
+import logo from "./logo.svg";
 import "./App.css";
 import { Container } from "reactstrap";
 import { Row } from "reactstrap";
@@ -28,8 +29,8 @@ const showdata = [
       "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC44LzEwICAxMDQuM0sgVm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00347867-zklzrdqjwu-portrait.jpg",
   },
 ];
-const showlist = showdata.map((sdata, i) => (
-  <Bookmyshow key={i} myshowdata={sdata}></Bookmyshow>
+const showlist = showdata.map((sdata) => (
+  <Bookmyshow myshowdata={sdata}></Bookmyshow>
 ));
 function App() {
   return (
