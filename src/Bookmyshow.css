@@ -1,0 +1,12 @@
+.imgcss {
+  border-radius: 25px;
+  border: 2px solid #0a0a09;
+  padding: 0%;
+
+  width: 200px;
+  height: 350px;
+}
+
+.showlist {
+  padding-top: 5%;
+}
